@@ -1,0 +1,40 @@
+/* line 4, ../styles/main.scss */
+#window {
+  width: 80%;
+  height: 400px;
+  margin: 20px auto;
+  overflow: hidden;
+  background-color: yellow;
+  position: relative; }
+
+/* line 13, ../styles/main.scss */
+#character {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  display: block;
+  z-index: 99;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+/* line 24, ../styles/main.scss */
+#background {
+  width: 300px;
+  height: 400px;
+  background-color: blue;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+/* line 34, ../styles/main.scss */
+#move {
+  background-color: green;
+  width: 200px;
+  height: 40px;
+  margin: 60px auto 0 auto;
+  display: block; }
